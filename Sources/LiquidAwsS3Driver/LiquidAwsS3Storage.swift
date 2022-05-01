@@ -46,7 +46,7 @@ struct LiquidAwsS3Storage: FileStorage {
 			return configuration.endpoint ?? "https://s3.\(region).scw.cloud"
 
 		case .digitaloceanS3:
-			return configuration.endpoint ?? "https://s3.\(region).digitaloceanspaces.com"
+			return configuration.endpoint ?? "https://\(region).digitaloceanspaces.com"
 		}
 	}
     

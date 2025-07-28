@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "LiquidAwsS3Driver", targets: ["LiquidAwsS3Driver"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/binarybirds/liquid-kit.git", from: "1.2.0"),
+        .package(url: "https://github.com/SwiftySwifty/liquid-kit.git", from: "1.2.0"),
         .package(url: "https://github.com/soto-project/soto.git", from: "5.3.0")
     ],
     targets: [
